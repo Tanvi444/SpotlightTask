@@ -1,0 +1,59 @@
+.main{
+    padding-top: 30px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+.searchbar input{
+    background-color: antiquewhite;
+    width: 30rem;
+    height: 2rem;
+}
+.content{
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+.order{
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.orders{
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+}
+.self{
+    display: block;
+}
+.date{
+    display: flex;
+    justify-content: center;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    display: none !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    border: 2px solid black !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    font-size: 1.2rem !important;
+    background-color: antiquewhite;
+
+}
+.btn{
+    display: flex;
+    background-color: brown;
+    font-size: 30px;
+    margin-top: 20px !important;
+    padding: 10px 10px;
+    font-weight: 400;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+}

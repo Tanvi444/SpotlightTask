@@ -1,0 +1,58 @@
+.main_card{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 50px;   
+}
+.expanded{
+    display: flex;
+    column-gap: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to left, #eb5757, #000000);
+    width: 500px; 
+}
+.close{
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+text{
+    font-size: 20px;
+}
+.box{
+    width:250px;
+    background: linear-gradient(to left, #eb5757, #000000); 
+    box-shadow: 15px 15px 8px #000000;
+    cursor: pointer;
+    padding: 20px;
+}
+.centre{
+    align-items: center;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;  
+    width: 15rem;
+    align-items: center;  
+}
+.CircularProgressbar {
+    width:auto !important;  
+    height: 90px;
+}
+.CircularProgressbar-path {
+    stroke: black !important;
+  }
+  .CircularProgressbar-trail {
+    stroke: white !important;
+  }
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: black !important;
+  }
+  @media screen and (max-width: 600px) {
+    .expanded{
+        width: 300px;
+    }
+  }

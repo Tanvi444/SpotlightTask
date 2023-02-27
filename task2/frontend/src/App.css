@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  margin:20px auto 0 auto;
+}
+*{
+  font-family: 'PT Serif Caption';
+}
+
+
+.search-box input{
+ 
+  width:30vw;
+  border:none;
+  outline: none;
+  font-size: 20px;
+  padding: 1.5vw 3vw;
+}
+.search-box div{
+  width:5vw;
+  padding:10px;
+  font-size: 25px;
+}
+.search-box{
+  border: 2px solid ;
+  border-radius: 50px;
+  width:50vw;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.order{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.orders{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+#orderdate{
+  /* border: none; */
+  outline: none;
+  padding:5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.search-date{
+  display: flex;
+  align-items: center;
+  /* width:150px; */
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top:10px;
+  
+}
+.search-date >div{
+  border:1px solid black;
+  padding:4px 8px;
+  border-radius: 10px;
+  cursor:pointer;
+  /* margin-right: 20px; */
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mangid-dropdown{
+  width: 10rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggles{
+  display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 1rem 3rem;
+
+}
